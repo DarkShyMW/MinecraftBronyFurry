@@ -1,40 +1,60 @@
-[09:24:11] [ServerMain/INFO]: Building unoptimized datafixer
-[09:24:13] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-[09:24:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09:24:13] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[09:24:15] [ServerMain/INFO]: Loaded 7 recipes
-[09:24:16] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[09:24:16] [Server thread/INFO]: Loading properties
-[09:24:16] [Server thread/INFO]: This server is running Paper version git-Paper-360 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 1975fbe)
-[09:24:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:24:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:24:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[09:24:17] [Server thread/INFO]: Default game type: SURVIVAL
-[09:24:17] [Server thread/INFO]: Generating keypair
-[09:24:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:24:17] [Server thread/INFO]: Using epoll channel type
-[09:24:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[09:24:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[09:24:17] [Server thread/INFO]: Preparing level "world"
-[09:24:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:24:29] [Server thread/INFO]: Time elapsed: 180 ms
-[09:24:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:24:29] [Server thread/INFO]: Time elapsed: 181 ms
-[09:24:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:24:29] [Server thread/INFO]: Time elapsed: 185 ms
-[09:24:29] [Server thread/INFO]: Running delayed init tasks
-[09:24:29] [Server thread/INFO]: Done (13.399s)! For help, type "help"
-[09:24:29] [Server thread/INFO]: Timings Reset
-[09:24:43] [Server thread/INFO]: Stopping server
-[09:24:43] [Server thread/INFO]: Saving players
-[09:24:43] [Server thread/INFO]: Saving worlds
-[09:24:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:24:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[09:24:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[09:24:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[09:24:45] [Server thread/INFO]: [ChunkHolderManager] Saved 1521 block chunks, 1 entity chunks, 0 poi chunks in world 'world' in 1,99s
-[09:24:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:24:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[09:24:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[09:24:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[09:24:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:10:07] [ServerMain/INFO]: Building unoptimized datafixer
+[10:10:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:10:10] [ServerMain/INFO]: Loaded 7 recipes
+[10:10:12] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[10:10:12] [Server thread/INFO]: Loading properties
+[10:10:12] [Server thread/INFO]: This server is running Paper version git-Paper-360 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 1975fbe)
+[10:10:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:10:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:10:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[10:10:13] [Server thread/INFO]: Default game type: SURVIVAL
+[10:10:13] [Server thread/INFO]: Generating keypair
+[10:10:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:10:13] [Server thread/INFO]: Using epoll channel type
+[10:10:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:10:13] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[10:10:14] [Server thread/INFO]: [NamelessMC] Loading NamelessMC v3.2.3
+[10:10:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:10:14] [Server thread/INFO]: Preparing level "world"
+[10:10:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:10:15] [Server thread/INFO]: Time elapsed: 174 ms
+[10:10:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:10:15] [Server thread/INFO]: Time elapsed: 91 ms
+[10:10:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:10:15] [Server thread/INFO]: Time elapsed: 38 ms
+[10:10:15] [Server thread/INFO]: [NamelessMC] Enabling NamelessMC v3.2.3
+[10:10:17] [Server thread/ERROR]: [NamelessMC] You have entered an invalid API URL. Please get an up-to-date API URL from StaffCP > Configuration > API and reload the plugin.
+[10:10:17] [Server thread/INFO]: [NamelessMC] Languages appear to not be installed yet.
+[10:10:17] [Server thread/INFO]: [NamelessMC] Installing language files
+[10:10:17] [Server thread/INFO]: [NamelessMC] Creating version file
+[10:10:17] [Server thread/INFO]: [NamelessMC] Done
+[10:10:17] [Server thread/INFO]: Running delayed init tasks
+[10:10:17] [Server thread/INFO]: Done (5.428s)! For help, type "help"
+[10:10:17] [Server thread/INFO]: Timings Reset
+[10:15:17] [Craft Scheduler Thread - 5 - NamelessMC/ERROR]: [NamelessMC] You have not entered an API URL and API key in the config or the API URL or API key is invalid. Please get your site's API URL and API key from StaffCP > Configuration > API and reload the plugin.
+[10:24:13] [Server thread/INFO]: Stopping server
+[10:24:13] [Server thread/INFO]: [NamelessMC] Disabling NamelessMC v3.2.3
+[10:24:13] [Server thread/INFO]: Saving players
+[10:24:13] [Server thread/INFO]: Saving worlds
+[10:24:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:24:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:24:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:24:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:24:13] [Server thread/INFO]: [ChunkHolderManager] Saved 1500 block chunks, 28 entity chunks, 0 poi chunks in world 'world' in 0,64s
+[10:24:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:24:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:24:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:24:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:24:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:24:15] [Server thread/INFO]: [ChunkHolderManager] Saved 1498 block chunks, 13 entity chunks, 0 poi chunks in world 'world_nether' in 1,05s
+[10:24:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:24:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:24:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:24:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:24:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:24:16] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,21s
+[10:24:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:24:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:24:17] [Server thread/INFO]: Flushing Chunk IO
+[10:24:17] [Server thread/INFO]: Closing Thread Pool
+[10:24:17] [Server thread/INFO]: Closing Server
